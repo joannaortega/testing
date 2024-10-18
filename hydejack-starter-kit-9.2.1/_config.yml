@@ -44,6 +44,13 @@ author:
   # Used by `jekyll-feed`:
   name:                <firstname> <lastname>
   email:               <mail@domain.tld>
+ # picture:
+  #   path:   /assets/img/me.jpg
+   #  srcset:
+    #   1x:   /assets/img/me.jpg
+     #  2x:   /assets/img/me@2x.jpg
+
+  
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
