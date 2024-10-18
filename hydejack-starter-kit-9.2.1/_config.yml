@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
- url:                   https://joannaortega.github.io
+ url:                   https://joannaortega.github.io/testing
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -56,6 +56,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Welcome
+    url:               /welcome/
   - title:             Example
     url:               /example/
   - title:             Documentation
@@ -343,9 +345,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jekyll-avatar
-
-paginate: 5
-paginate_path: "/blog/page:num/"
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
