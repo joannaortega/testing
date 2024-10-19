@@ -317,7 +317,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         /blog/:name/
     output:            true
 
   featured_tags:
@@ -333,7 +333,11 @@ collections:
 # ----------------------------------------------------------------------------------------
 
 exclude:
+    - ./#jekyll-theme-hydejack/node_modules
+  - ./#jekyll-theme-hydejack/assets
+  - ./#jekyll-theme-hydejack/.git
   - .jekyll-cache
+  - _zip
   - .sass-cache
   - .ruby-lsp
   - .wrangler
