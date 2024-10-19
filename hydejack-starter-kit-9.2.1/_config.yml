@@ -143,25 +143,25 @@ defaults:
         background:    rgb(32,32,32)
         overlay:       false
   - scope:
-      path: blog.md
+      path:            blog
     values:
-      menu: true
-      order: 1
+      menu:            true
+      order:           1
   - scope:
-      path: projects.md
+      path:            projects
     values:
-      menu: true
-      order: 2
+      menu:            true
+      order:           2
   - scope:
-      path: resume.md
+      path:            resume
     values:
-      menu: true
-      order: 3
+      menu:            true
+      order:           3
   - scope:
-      path: about.md
+      path:            about
     values:
-      menu: true
-      order: 4
+      menu:            true
+      order:           4
 
   # Don't include documents in assets in the sitemap
   - scope:
