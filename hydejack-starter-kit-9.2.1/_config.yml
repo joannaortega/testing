@@ -56,12 +56,12 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Welcome
-    url:               /welcome/
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Blog
+    url:               /blog/
+  - title:             Projects
+    url:               /projects/
+  - title:             Resume
+    url:               /resume/
   - title:             About
     url:               /about/
 
