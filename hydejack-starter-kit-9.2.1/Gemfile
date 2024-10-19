@@ -58,6 +58,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-paginate"
   gem "jekyll-avatar"
+  gem "github-pages"
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
