@@ -1,6 +1,6 @@
-# file: `index.md`
+#file: `index.md`
 ---
 layout: welcome
 title:  Welcome
-cover:  true #!! Add this
+cover:  true
 ---
