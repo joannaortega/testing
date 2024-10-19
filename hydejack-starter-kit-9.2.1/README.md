@@ -1,20 +1,21 @@
-# Hydejack Starter Kit
+---
+layout: home
+cover: false
+image: /assets/img/blog/hydejack-9.jpg
+logo: <img src="/assets/img/logo.png"/>
+description: >
+  A boutique Jekyll theme for hackers, nerds, and academics,
+  with a focus on personal sites that are meant to impress.
+hide_description: true
+buttons: |
+  [Download](#download){:.btn.btn-primary}
+  [Documentation](/docs){:.btn.btn-default}
+selected_projects:
+ 
+projects_page: showcase.md
+selected_posts:
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
-
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
-
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
-
-[^1]: Requires Bundler. Install with `gem install bundler`.
-
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+posts_page: /posts/
+no_third_column: true
+permalink: /
+---
